@@ -31,8 +31,6 @@ public class SalaryCalculator {
       return employee;
   }
 
-
-
   // This method prints out all employees in the order they appear in the CSV file and their respective salaries.
   public void all(){
 
@@ -63,7 +61,7 @@ public class SalaryCalculator {
       System.out.println(employee.name+": $"+String.format("%,.2f", salary));
     }
   }
-
+  
   // This method prints out all employees (grouped by role) and their respective salaries.
   public void role(){
 
